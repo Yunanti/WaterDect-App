@@ -1,5 +1,7 @@
+import Facebook from './Facebook';
 import Instagram from './Instagram';
 import Twitter from './Twitter';
+import WhatsApp from './WhatsApp';
 
 export const iconsList = [
   {
@@ -7,5 +9,11 @@ export const iconsList = [
   },
   {
     icons: <Twitter />,
+  },
+  {
+    icons: <Facebook />,
+  },
+  {
+    icons: <WhatsApp />,
   },
 ];

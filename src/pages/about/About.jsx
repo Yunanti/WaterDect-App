@@ -14,25 +14,6 @@ function About() {
         {iconsList.map((item) => (
           <span>{item.icons}</span>
         ))}
-        {/* {image.map((item) => (
-          <img src={item.src} alt={item.alt} />
-        ))} */}
-        {/* <img
-          src={require('../../components/images/sosmed/ig.png')}
-          alt="Instagram"
-        />
-        <img
-          src={require('../../components/images/sosmed/wa.png')}
-          alt="WhatsApp"
-        />
-        <img
-          src={require('../../components/images/sosmed/fb.png')}
-          alt="Facebook"
-        />
-        <img
-          src={require('../../components/images/sosmed/twt.png')}
-          alt="Twitter"
-        /> */}
       </footer>
     </>
   );
