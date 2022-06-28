@@ -1,0 +1,16 @@
+.header-gallery {
+  padding-top: 90px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+  background-color: #99b2b4;
+}
+
+.header-gallery h1 {
+  font-size: 23pt;
+  font-family: 'Poppins', sans-serif;
+  color: #1b3132;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}

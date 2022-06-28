@@ -31,10 +31,10 @@ export default function GalleryList() {
         }
       ]
   return (
-    <>
-        {glist.map((item) => (
-          <span>{item.image}</span>
+    <div className='gallery-list'>
+        {glist.map((item, index) => (
+          <div className='gallery-img' key={index}>{item.image}</div>
         ))}
-    </>
+    </div>
   )
 }
