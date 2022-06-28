@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <nav>
+    <nav className='nav'>
       <div className='logo'>
         <p>WaterDect</p>
       </div>
       <div className='nav-links'>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/gallery">Gallery</NavLink>
-      <NavLink to="/about">About</NavLink>
+      <NavLink to="/" className='section'>Home</NavLink>
+      <NavLink to="/gallery" className='section'>Gallery</NavLink>
+      <NavLink to="/about" className='section'>About</NavLink>
       </div>
       <div className='menu-toggle'>
         <span></span>
