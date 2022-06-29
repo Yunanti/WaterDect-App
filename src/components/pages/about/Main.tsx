@@ -7,7 +7,7 @@ export default function Main() {
     <div className="grid">
       <div className="card-name ganjil">
         <img
-          src={require('../../images/ava.jpg')}
+          src={require('../../images/joa.jpeg')}
           alt="avatar"
         />
         <h3>Jannatin Ockta A.</h3>
@@ -15,7 +15,7 @@ export default function Main() {
       </div>
       <div className="card-name genap">
         <img
-          src={require('../../images/ava.jpg')}
+          src={require('../../images/yuna.jpg')}
           alt="avatar"
         />
         <h3>Yunanti Moga H.</h3>

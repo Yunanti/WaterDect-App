@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
 import GalleryList from '../../components/images/gallery/GalleryList';
+import Footer from '../../components/pages/about/Footer';
 import Form from '../../components/pages/gallery/Form';
 
 export default function Gallery() {
@@ -14,7 +15,9 @@ export default function Gallery() {
           <Form />
           <GalleryList />
         </div>
+        <h4>Generasi GIGIH 2.0 by YABB-GoTo</h4>
       </header>
+      <Footer />
     </>
   )
 }

@@ -1,5 +1,6 @@
 .header-gallery {
   padding-top: 90px;
+  padding-bottom: 5px;
   padding-left: 200px;
   padding-right: 200px;
   text-align: center;
@@ -13,4 +14,12 @@
   margin-top: 0;
   margin-bottom: 30px;
   text-align: center;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+.header-gallery h4 {
+  color: #1b3132;
 }

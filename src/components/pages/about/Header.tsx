@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <header className='header'>
-        <img src={require('../../images/ava.jpg')} alt="avatar" />
+        <img src={require('../../images/logo.jpg')} alt="avatar" />
         <h1>WaterDect</h1>
         <h3>Front-End Disaster Management 3 Group</h3>
         <p>
