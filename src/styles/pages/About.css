@@ -68,6 +68,10 @@ body {
   margin-bottom: 40px;
 }
 
+.card-name:hover {
+  background-color: #99b2b4;
+}
+
 .ganjil {
   background-color: rgba(104, 154, 157, 1);
 }
@@ -190,4 +194,10 @@ footer {
 footer img {
   width: 30px;
   margin: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .grid {
+    animation: wipe-enter 1s 1;
+  }
 }
