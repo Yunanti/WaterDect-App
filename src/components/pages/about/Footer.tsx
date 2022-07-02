@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
         {iconsList.map((item) => (
-          <span>{item.icons}</span>
+          <span  data-aos="fade-up">{item.icons}</span>
         ))}
       </footer>
   )

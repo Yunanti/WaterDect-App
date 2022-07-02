@@ -51,7 +51,7 @@ export default function Form({setisFirstTimeRender}: any) {
     );
   return (
     <>
-        <form className='form-gallery'>
+        <form className='form-gallery' data-aos="fade-up">
           <select onChange={(e) => handleChange(e)} 
           >
             <option value={""}>Pilih Provinsi...</option>

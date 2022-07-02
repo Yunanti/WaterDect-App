@@ -128,7 +128,7 @@ export default function GalleryList({selectedProvinsi}: any) {
   return (
     <div className='gallery-list'>
         {getGlist(selectedProvinsi).map((item, index) => (
-          <div className='gallery-img' key={index}>{item.image}</div>
+          <div className='gallery-img' key={index} data-aos="flip-up">{item.image}</div>
         ))}
     </div>
   )

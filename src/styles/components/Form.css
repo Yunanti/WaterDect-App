@@ -1,12 +1,10 @@
-.form-gallery {
-  margin: 30px;
-}
-
 .form-gallery select {
-  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  border: 1.5px solid #9bad65;
+  background-color: transparent;
+  width: 100%;
   border-radius: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
-  color: #1b3132;
+  color: #9bad65;
 }
