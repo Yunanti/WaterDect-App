@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import Footer from './Footer';
 
 export default function Form() {
   const formRef = useRef(null);
@@ -42,13 +43,14 @@ export default function Form() {
   };
   return (
     <div className="form">
-      <h1>Kritik dan Saran</h1>
+      <h1 data-aos="fade-up">Kritik dan Saran</h1>
       <div className="form-item">
         <form
           method="post"
           ref={formRef}
           onSubmit={handleSubmit}
           name="google-sheet"
+          data-aos="fade-up"
         >
           <label htmlFor="name">Nama</label>
           <input
@@ -88,6 +90,7 @@ export default function Form() {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }

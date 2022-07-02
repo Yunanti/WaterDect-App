@@ -1,12 +1,10 @@
-body {
-  /* background-image: linear-gradient(#1b3132 20%, #ffffff 140%); */
-  /* margin-left: 150px;
-      margin-right: 150px; */
+.bg-about {
+  background-color: #e4ffaa;
 }
 
 /* Bagian Header */
 .header {
-  background-color: #99b2b4;
+  background-image: linear-gradient(to bottom, #030d00, #3b583e);
   width: 100%;
   text-align: center;
   padding-bottom: 40px;
@@ -22,7 +20,7 @@ body {
 .header h1 {
   font-size: 25pt;
   font-family: 'Poppins', sans-serif;
-  color: #1b3132;
+  color: #dcff77;
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -30,14 +28,14 @@ body {
 .header h3 {
   font-size: 13pt;
   font-family: 'Raleway', sans-serif;
-  color: #1b3132;
+  color: #ccfd3d;
   margin-bottom: 0;
 }
 
 .header p {
   font-size: 12pt;
   font-family: 'Raleway', sans-serif;
-  color: #1b3132;
+  color: #f2ffcd;
   padding-bottom: 40px;
   padding-left: 200px;
   padding-right: 200px;
@@ -69,15 +67,15 @@ body {
 }
 
 .card-name:hover {
-  background-color: #99b2b4;
+  background-color: #6b8a38;
 }
 
 .ganjil {
-  background-color: rgba(104, 154, 157, 1);
+  background-color: #b7bb00;
 }
 
 .genap {
-  background-color: rgba(120, 137, 138, 1);
+  background-color: #8fc100;
 }
 
 .card-name img {
@@ -113,17 +111,10 @@ body {
 .form h1 {
   font-size: 25pt;
   font-family: 'Poppins', sans-serif;
-  color: #1b3132;
+  color: #dcff77;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   text-align: center;
-}
-
-.form p {
-  color: #1b3132;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
 }
 
 .form-item {
@@ -146,6 +137,7 @@ form {
 }
 
 .kirim {
+  color: #ccfd3d;
   width: 100px;
   background-color: transparent;
   border: 1.5px solid rgba(255, 255, 255, 0.5);
@@ -161,30 +153,31 @@ form {
 }
 
 .form {
-  background-color: #99b2b4;
-  padding-top: 60px;
+  background-image: linear-gradient(to bottom, #3b583e, #030d00);
+  padding-top: 80px;
   padding-bottom: 10px;
   padding-left: 200px;
   padding-right: 200px;
+  color: #ffffff;
 }
 
 .form input {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #9bad65;
   border-radius: 15px;
   border-style: none;
   padding: 5px;
 }
 
 .form textarea {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #9bad65;
   border-radius: 15px;
   border-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 15px;
 }
 
 footer {
-  background-color: #99b2b4;
+  /* background-color: #99b2b4; */
   padding-bottom: 40px;
   padding-left: 200px;
   padding-right: 200px;
