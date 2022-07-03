@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# Nama
+Water-deck app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
+WEB yang kelompok kami buat adalah sebuah web gallery yang menampilkan beberapa gambar yang memberikan informasi mengenai daerah-daerah di Indonesia yang akan dan mengalami kekeringan, sehingga masyarakat Indonesia dapat melakukan pencegahan dini terhadap kekeringan yang akan datang. Web ini sangat sederhana karena tidak terlalu menggunakan atribut atribut pada css dan juga sangat simple, sehingga membuat pembaca menjadi mudah untuk mengaksesnya karena tidak terdapat atribut-atribut yang banyak di dalam web ini.
 
-## Available Scripts
+# Feature 
+Pada web kami terdapat beberapa menu bar yang tersedia, yaitu :
+## Menu Home
+Menu Home berisikan beberapa artikel-artikel informasi mengenai berita terupdate bencana alam apa yang terjadi di indonesia.
+## Menu Bar Gallery
+Menu Bar Gallery memberikan informasi melalui gambar tentang daerah yang mengalami kekeringan atau krisis air langka, disini kami menggunakan style pop ketika cursor diarahkan ke beberapa gambar yang dituju maka akan ada efek menimbul dari gambar yang kita arahkan kursornya.
+## Menu Bar About
+Menu Bar About merupakan menu yang akan memberikan informasi tentang para personil kami dan tempat formulir untuk kritik dan saran terhadap website yang kami buat. Formulir tersebut berisikan nama, email, topik, dan komentar.
 
-In the project directory, you can run:
+Project yang akan kami buat ini membuat target usernya adalah masyarakat dan pemerintah Indonesia. Diharapkan dengan adanya website yang akan kami buat dapat membantu masyarakat dalam melihat keadaan daerahnya termasuk darah yang mengalami kekeringan atau tidak. Dan untuk pemerintah kami mengharapkan dengan adanya website deteksi lokasi kekeringan ini, pemerintah dapat dengan mudah memantau masyarakat yang sedang mengalami bencana tersebut.  
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# End-to-end User Experience
+Ketika user mengunjungi web kami, user akan dihadapkan dengan beberapa menu bar yang tersedia. Dimana terdapat menu home yang berisikan berita-berita terkini Indonesia mengenai daerah yang mengalami kekeringan. Menu bar selanjutnya adalah gallery, user akan melihat beberapa gambar tentang daerah yang mengalami kekeringan atau krisis air langka. Pada menu gallery tersebut terdapat fitur search yang mana dapat membantu user untuk mencari daerah-daerah mana saja yang mengalami kekeringan. Lalu ketika user menekan menu bar about, mereka akan di tampilkan informasi tentang para personil kami yang mana berisikan profile singkat kami. kemudian di bagian bawah profile personil user akan diperlihatkan kontak seperti nama, email, dan komentar yang mana fitur ini berguna untuk user memberikan kritik atau saran terhadap website kami. 
