@@ -31,7 +31,7 @@ export default function Main() {
       </div>
       <div className="card-name genap" data-aos="fade-left">
         <img
-          src={require('../../images/ava.jpg')}
+          src={require('../../images/mentor.jpeg')}
           alt="avatar"
         />
         <h3>Nuzha Musyafira</h3>

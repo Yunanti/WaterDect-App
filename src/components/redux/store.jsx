@@ -1,8 +1,8 @@
-import { configureStore } from "@reduxjs/toolkit";
-import selectReducer from "./reducer";
+import { configureStore } from '@reduxjs/toolkit';
+import selectReducer from './reducer';
 
 export default configureStore({
-    reducer: {
-        select: selectReducer,
-    },
+  reducer: {
+    select: selectReducer,
+  },
 });

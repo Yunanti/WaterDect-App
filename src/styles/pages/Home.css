@@ -1,5 +1,114 @@
-.dammy {
-  padding: 200px;
-  display: flex;
-  justify-content: center;
+.home {
+  display: grid;
+  grid-template-areas: 'atas atas' 'kiri kanan';
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.65fr 1fr;
+  background-image: linear-gradient(to bottom, #3b583e, #030d00);
+}
+
+.home-header {
+  background-image: url('../../components/images/gallery-home/3.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 300px; */
+  grid-area: atas;
+  padding-bottom: 30px;
+}
+
+.home-header a {
+  background-color: #acd23d;
+  border-radius: 0.2em;
+  padding: 5px 10px 10px 10px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 50px;
+}
+
+.home-header a:hover {
+  background-color: #ffffff;
+  color: #acd23d;
+}
+
+.home-header h1 {
+  padding-top: 220px;
+  margin-left: 50px;
+  color: #eeffbe;
+}
+
+.container-left {
+  grid-area: kiri;
+}
+
+.container-left h1 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 80%;
+  padding-left: 110px;
+  text-align: justify;
+  color: #dcff77;
+  font-size: 16px;
+}
+
+.container-left a {
+  color: #eeffbe;
+  text-decoration: none;
+  padding-left: 110px;
+  font-size: 17px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.container-left h2 {
+  padding-left: 110px;
+  padding-top: 10px;
+  color: white;
+}
+
+.container-left img {
+  width: 80%;
+  height: 39%;
+  padding-left: 110px;
+  padding-right: 30px;
+}
+
+.container-left hr {
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 110px;
+}
+
+.container-right {
+  grid-area: kanan;
+}
+
+.container-right h1 {
+  padding-top: 70px;
+  padding-bottom: 10px;
+  width: 80%;
+  padding-left: 25px;
+  text-align: justify;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.container-right a {
+  color: #eeffbe;
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 18.5px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.container-right img {
+  width: 80%;
+  height: 39%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.container-right hr {
+  width: 80%;
+  margin-top: 70px;
+  margin-right: 130px;
 }

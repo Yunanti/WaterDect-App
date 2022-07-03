@@ -35,6 +35,10 @@
   color: #dcff77;
 }
 
+.nav-links .activeSection {
+  color: #dcff77;
+}
+
 .nav-links a:focus {
   color: #dcff77;
 }
@@ -45,15 +49,11 @@
   border-bottom: 1.5px solid rgba(3, 13, 0, 0);
 }
 
-.section:hover {
+.activeSection {
   border-bottom: 1.5px solid #dcff77;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   transition: 1s;
-}
-
-.section:focus {
-  border-bottom: 1.5px solid #dcff77;
 }
 
 /* Hamburger menu */

@@ -1,7 +1,8 @@
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { setSelect } from '../../redux/action';
 
 export default function Form({setisFirstTimeRender}: any) {
+    const { select } = useSelector((state: any) => state.select);
     const dispatch = useDispatch();
   
     const handleChange = (e: any) => {
@@ -47,13 +48,12 @@ export default function Form({setisFirstTimeRender}: any) {
     ];
   
     const provinsi = provinsiList.sort().map((prov, index) =>
-      <option key={index} value={prov}>{prov}</option>
+      <option key={index} selected={select === prov} value={prov}>{prov}</option>
     );
   return (
     <>
         <form className='form-gallery' data-aos="fade-up">
-          <select onChange={(e) => handleChange(e)} 
-          >
+          <select onChange={(e) => handleChange(e)}>
             <option value={""}>Pilih Provinsi...</option>
             {provinsi}
           </select>

@@ -5,4 +5,11 @@ function setSelect(keyword) {
   };
 }
 
-export { setSelect };
+function setActivePage(keyword) {
+  return {
+    type: 'setActivePage',
+    payload: keyword,
+  };
+}
+
+export { setSelect, setActivePage };

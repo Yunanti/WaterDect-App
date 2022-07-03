@@ -1,5 +1,6 @@
 const initialState = {
   select: '',
+  activePage: '',
 };
 
 function selectReducer(state = initialState, action) {
@@ -8,6 +9,11 @@ function selectReducer(state = initialState, action) {
       return {
         ...state,
         select: action.payload,
+      };
+    case 'setActivePage':
+      return {
+        ...state,
+        activePage: action.payload,
       };
     default:
       return state;
