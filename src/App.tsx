@@ -8,7 +8,6 @@ import './styles/pages/Home.css';
 import './styles/components/Form.css';
 import './styles/pages/Gallery.css';
 import './styles/components/GalleryList.css';
-// import './App.css';
 
 function App() {
   return (
