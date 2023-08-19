@@ -15,6 +15,7 @@ export default function Home() {
            <a href="https://www.liputan6.com/news/read/4959237/jurus-bpbd-dki-hadapi-krisis-air-saat-musim-kemarau-melanda-jakarta" target='_blank' rel="noreferrer">Lihat Selengkapnya</a>
           
       </header>
+<<<<<<< HEAD
       {/* <div className='container-left'>
       <hr />
         <h2>NEWS</h2>
@@ -57,6 +58,36 @@ export default function Home() {
           </a>
         </div>
       </main>
+=======
+
+      <main className='main-home-top'>
+        <div className='card-news-top'>
+          <a href="https://regional.kompas.com/read/2021/11/12/151502978/17-kecamatan-di-sikka-darurat-kekeringan-bpbd-kirim-465-tangki-air-bersih" target='_blank' rel="noreferrer">
+            <img src={require("../../components/images/gallery-home/1.jpg")} alt="kekeringan" />
+            <h4>17 Kecamatan di Sikka Darurat Kekeringan, BPBD Kirim 465 Tangki Air Bersih</h4>
+          </a>
+        </div>
+        <div className='card-news-top'>
+          <a href="https://news.detik.com/berita/d-6081428/daftar-15-kecamatan-di-dki-yang-rawan-krisis-air-bersih-saat-kemarau" target='_blank' rel="noreferrer">
+            <img src={require("../../components/images/gallery-home/2.jpg")} alt="kekeringan" />
+            <h4>Daftar 15 Kecamatan di DKI yang Rawan Krisis Air Bersih saat Kemarau</h4>
+          </a>
+        </div>
+        <div className='card-news-top'>
+          <a href="https://regional.kompas.com/read/2021/11/12/151502978/17-kecamatan-di-sikka-darurat-kekeringan-bpbd-kirim-465-tangki-air-bersih" target='_blank' rel="noreferrer">
+            <img src={require("../../components/images/gallery-home/1.jpg")} alt="kekeringan" />
+            <h4>17 Kecamatan di Sikka Darurat Kekeringan, BPBD Kirim 465 Tangki Air Bersih</h4>
+          </a>
+        </div>
+        <div className='card-news-top'>
+          <a href="https://regional.kompas.com/read/2021/11/12/151502978/17-kecamatan-di-sikka-darurat-kekeringan-bpbd-kirim-465-tangki-air-bersih" target='_blank' rel="noreferrer">
+            <img src={require("../../components/images/gallery-home/2.jpg")} alt="kekeringan" />
+            <h4>17 Kecamatan di Sikka Darurat Kekeringan, BPBD Kirim 465 Tangki Air Bersih</h4>
+          </a>
+        </div>
+      </main>
+      
+>>>>>>> 759fe42611ef968ab2e88335544ecd875156a5c5
       <main className='main-home-bottom'>
         <div className='card-news-bottom'>
           <a href="https://regional.kompas.com/read/2021/11/12/151502978/17-kecamatan-di-sikka-darurat-kekeringan-bpbd-kirim-465-tangki-air-bersih" target='_blank' rel="noreferrer">
